@@ -1,3 +1,29 @@
 body {
-  background-color: blue;
+  background-image: url("space_background.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: white;
+}
+
+#header{
+  padding-top: 5%;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.447);
+  color: white;
+  font-size: 30px;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+
+}
+
+button{
+  background-color: gray;
+  border: 0;
+  border-radius: 5%; 
+  width: 300px;
+  height: 100px;
+  position: fixed;
+  left: 500px;
+  top: 400px;
+  font-size: 40px;
 }
